@@ -1,0 +1,15 @@
+{
+  "name" : "sfadless-cmf/media-bundle",
+  "type" : "symfony-bundle",
+  "description": "",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "SfadlessCMF\\MediaBundle\\": "src"
+    }
+  },
+  "require": {
+    "sfadless-cmf/admin-dashboard-bundle": "dev-master",
+    "sonata-project/media-bundle": "3.9.*"
+  }
+}
